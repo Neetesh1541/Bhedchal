@@ -1,4 +1,4 @@
-# 🐑 BhedChaal - AI-Powered Crowd Management System... 
+# 🐑 BhedChaal - AI-Powered Crowd Management System..
 
 **BhedChaal** is an intelligent crowd monitoring and anomaly detection system that leverages AI and computer vision to ensure safety, predict dangerous crowd behavior, and assist in efficient public management during events, rallies, and gatherings.
 
