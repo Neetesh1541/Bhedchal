@@ -1,47 +1,50 @@
-# 🐑 BhedChaal - AI-Powered Crowd Management System...
+# 🐑 BhedChaal — AI-Powered Crowd Management
 
-**BhedChaal** is an intelligent crowd monitoring and anomaly detection system that leverages AI and computer vision to ensure safety, predict dangerous crowd behavior, and assist in efficient public management during events, rallies, and gatherings..
+BhedChaal is an AI and computer-vision system designed to monitor crowd density, identify unusual behavior, and support safer management of large gatherings.
 
 ## 🚀 Features
 
-- 🎥 **Live Crowd Density Detection** using CSRNet
-- 👥 **Real-time Face Detection** with YOLOv11-Face
-- 🧠 **Anomaly Detection** for unusual crowd behavior
-- 🗺️ **Homography Transformation** for top-view mapping
-- 🎮 **Physics-Based Simulation** to predict crowd movement
-- 🖼️ **Real-ESRGAN** for image enhancement
-- 📲 Web-accessible via camera (desktop/mobile)
+- 🎥 Crowd density estimation using CSRNet
+- 👥 Real-time face detection with YOLOv11-Face
+- 🧠 Crowd anomaly detection
+- 🗺️ Homography transformation for top-view mapping
+- 🎮 Physics-based crowd movement simulation
+- 🖼️ Real-ESRGAN image enhancement
+- 📲 Camera-based web interface
 
----
+## 🎯 Potential Use Cases
 
-## 📌 Use Cases
+- Large public gatherings and festivals
+- Stadiums and college events
+- Railway stations and airports
+- Disaster-management scenarios
+- Rallies and high-density venues
 
-- Kumbh Mela, religious gatherings
-- Political rallies, stadiums
-- Railway stations, airports
-- Disaster management zones
-- College fests, large event venues
+## 🏗️ Architecture
 
----
+```text
+Camera Feed
+    ↓
+YOLOv11-Face + Crowd Density Model
+    ↓
+Anomaly Detection
+    ↓
+Homography + Movement Simulation
+    ↓
+Dashboard + Alerts
+```
 
 ## 🛠️ Tech Stack
 
-| Component              | Tech Used           |
-|------------------------|---------------------|
-| Frontend               | React               |
-| Backend                | Flask               |
-| AI/ML Models           | YOLOv11-Face, CSRNet, Anomaly Detector |
-| Image Enhancement      | Real-ESRGAN         |
-| Simulation             | Physics-based Modeling |
-| Deployment             | Web-based (camera access) |
+| Layer | Technology |
+|---|---|
+| Frontend | React |
+| Backend | Flask |
+| Computer Vision | YOLOv11-Face, OpenCV |
+| Crowd Estimation | CSRNet |
+| Enhancement | Real-ESRGAN |
+| Simulation | Physics-based modeling |
 
----
+## 👨‍💻 Author
 
-## 🧠 Architecture Overview
-
-```plaintext
-[Camera Feed] --> [YOLOv11-Face] --> [Crowd Density + Anomaly Detection]
-                        ↓
-         [Homography Mapping + Top-view Simulation]
-                        ↓
-         [Real-time Dashboard + Alert System]
+Built by **Neetesh Sharma**.
