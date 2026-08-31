@@ -1,24 +1,16 @@
 # 🐑 BhedChaal — AI-Powered Crowd Management
 
-BhedChaal is an AI and computer-vision system designed to monitor crowd density, identify unusual behavior, and support safer management of large gatherings.
+BhedChaal is an **AI and computer-vision system** designed to monitor crowd density, identify unusual behavior, and support safer management of large gatherings.
 
 ## 🚀 Features
 
-- 🎥 Crowd density estimation using CSRNet
+- 🎥 Crowd-density estimation using CSRNet
 - 👥 Real-time face detection with YOLOv11-Face
 - 🧠 Crowd anomaly detection
 - 🗺️ Homography transformation for top-view mapping
 - 🎮 Physics-based crowd movement simulation
 - 🖼️ Real-ESRGAN image enhancement
 - 📲 Camera-based web interface
-
-## 🎯 Potential Use Cases
-
-- Large public gatherings and festivals
-- Stadiums and college events
-- Railway stations and airports
-- Disaster-management scenarios
-- Rallies and high-density venues
 
 ## 🏗️ Architecture
 
@@ -33,6 +25,14 @@ Homography + Movement Simulation
     ↓
 Dashboard + Alerts
 ```
+
+## 🎯 Potential Use Cases
+
+- Large public gatherings and festivals
+- Stadiums and college events
+- Railway stations and airports
+- Disaster-management scenarios
+- High-density venues
 
 ## 🛠️ Tech Stack
 
